@@ -7,4 +7,4 @@ Use this tool : https://github.com/iGio90/Poseidon this will help decompile and 
 
 ![](https://media.discordapp.net/attachments/548833147866054657/550343381692448769/ss.png?width=400&height=235)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)]
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
