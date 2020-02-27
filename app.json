@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Brawl Stars",
+    "description": "A game of skins and fights",
+    "slug": "brawl-stars",
+    "sdkVersion": "35.0.0",
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "primaryColor": "#0000FF",
+    "privacy": "public",
+    "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/4a/3d/86/4a3d86a4-23c7-23f3-fe23-5539d8f11531/AppIcon-0-1x_U007emarketing-0-85-220-0-6.png/1024x1024bb.png",
+    "loading": {
+      "icon": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/4a/3d/86/4a3d86a4-23c7-23f3-fe23-5539d8f11531/AppIcon-0-1x_U007emarketing-0-85-220-0-6.png/1024x1024bb.png"
+    },
+    "ios": {
+      "supportsTablet": true
+    }
+    heroku buildpacks:set heroku/php
+    },
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  }
+}
+© 2020 SuperCell, Inc.
