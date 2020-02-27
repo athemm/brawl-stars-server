@@ -44,7 +44,7 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+      "url": "https://github.com/ztcollazo/brawl-stars-server/master/app.json"
     },
     {
       "url": "heroku/php
