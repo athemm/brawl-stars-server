@@ -43,6 +43,7 @@
     }
   ],
   "buildpacks": [
+    "heroku buildpacks:set heroku/php"
     {
       "url": "https://github.com/ztcollazo/brawl-stars-server/master/app.json"
     },
