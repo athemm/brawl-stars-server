@@ -30,6 +30,7 @@
     }
   },
   "image": "heroku/php",
+  "addons": [
     {
       "plan": "mongolab:shared-single-small",
       "as": "MONGO"
