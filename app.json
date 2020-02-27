@@ -49,7 +49,7 @@
     },
     {
       "url": "heroku/java"
-  "environments": {
+  "environments" {
     "test": {
       "scripts": {
         "test": "bundle exec rake test"
