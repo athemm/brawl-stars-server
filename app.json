@@ -1,20 +1,57 @@
 {
   "name": "Brawl Stars",
-  "description": "A game that involves skins and fighting.",
-  "website": "https://blog.brawlstars.com/",
+  "description": "This app is an addicting fighting game.",
+  "keywords": [
+    "Brawl Stars",
+    "Brawl",
+    "Stars"
+  ],
+  "website": "https://blog.brawlstars.com",
+  "repository": "https://github.com/ztcollazo/brawl-stars-server",
+  "logo": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/4a/3d/86/4a3d86a4-23c7-23f3-fe23-5539d8f11531/AppIcon-0-1x_U007emarketing-0-85-220-0-6.png/1024x1024bb.png",
   "success_url": "/welcome",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
+  },
   "env": {
-    "BRAWL_STARS": "production",
-    "BRAWL_STARS": {
-            "description": "This gets generated",
-            "generator": "secret"
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
     },
-    "SETUP_BY": {
-            "description": "Who initiated this setup",
-            "value": "5"
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
     }
   },
-  "scripts": {
-    "postdeploy": "bundle exec rake db:migrate"
+  "formation": {
+    "web": {
+      "quantity": 2,
+      "size": "Performance-M"
+    }
+  },
+  "image": "heroku/php",
+    {
+      "plan": "mongolab:shared-single-small",
+      "as": "MONGO"
+    },
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/stomita/heroku-buildpack-phantomjs"
+    },
+    {
+      "url": "heroku/php
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "bundle exec rake test"
+      }
+    }
   }
 }
