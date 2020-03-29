@@ -1,12 +1,12 @@
 {
-  "name": "BS",
-  "description": "BS",
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
   "keywords": [
-    "bs",
+    "productivity",
     "HTML5",
-    "scaspel"
+    "scalpel"
   ],
-  "website": "https://google.com/",
+  "website": "https://small-sharp-tool.com/",
   "repository": "https://github.com/athemm/brawl-stars-server",
   "logo": "https://small-sharp-tool.com/logo.svg",
   "success_url": "/welcome",
@@ -29,7 +29,7 @@
       "size": "Performance-M"
     }
   },
-  "image": "heroku/ruby",
+  "image": "heroku/java",
   "addons": [
     "openredis",
     {
@@ -45,8 +45,8 @@
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/ztcollazo/brawl-stars-server/blob/master"
-
+      "url": "https://github.com/athemm/brawl-stars-server"
+    }
   ],
   "environments": {
     "test": {
