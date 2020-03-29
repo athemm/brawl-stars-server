@@ -29,7 +29,7 @@
       "size": "Performance-M"
     }
   },
-  "image": "heroku/java",
+  "image": "https://github.com/heroku/heroku-buildpack-java",
   "buildpacks": [
     {
       "url": "heroku/javar"
