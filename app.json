@@ -1,14 +1,14 @@
 {
-  "name": "Brawl Stars",
-  "description": "This app is an addicting fighting game.",
+  "name": "BS",
+  "description": "BS",
   "keywords": [
-    "Brawl Stars",
-    "Brawl",
-    "Stars"
+    "bs",
+    "HTML5",
+    "scaspel"
   ],
-  "website": "https://blog.brawlstars.com",
-  "repository": "https://github.com/ztcollazo/brawl-stars-server",
-  "logo": "https://is3-ssl.mzstatic.com/image/thumb/Purple123/v4/4a/3d/86/4a3d86a4-23c7-23f3-fe23-5539d8f11531/AppIcon-0-1x_U007emarketing-0-85-220-0-6.png/1024x1024bb.png",
+  "website": "https://google.com/",
+  "repository": "https://github.com/athemm/brawl-stars-server",
+  "logo": "https://small-sharp-tool.com/logo.svg",
   "success_url": "/welcome",
   "scripts": {
     "postdeploy": "bundle exec rake bootstrap"
@@ -29,8 +29,9 @@
       "size": "Performance-M"
     }
   },
-  "image": "heroku/php",
+  "image": "heroku/ruby",
   "addons": [
+    "openredis",
     {
       "plan": "mongolab:shared-single-small",
       "as": "MONGO"
@@ -43,13 +44,11 @@
     }
   ],
   "buildpacks": [
-    "heroku buildpacks:set heroku/java"
     {
-      "url": "https://github.com/ztcollazo/brawl-stars-server/blob/master/app.json"
-    },
-    {
-      "url": "heroku/java"
-  "environments" {
+      "url": "https://github.com/ztcollazo/brawl-stars-server/blob/master"
+    
+  ],
+  "environments": {
     "test": {
       "scripts": {
         "test": "bundle exec rake test"
