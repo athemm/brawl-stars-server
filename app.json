@@ -29,10 +29,10 @@
       "size": "Performance-M"
     }
   },
-  "image": "https://github.com/heroku/heroku-buildpack-java",
+  "image": "https://image.shutterstock.com/image-photo/fantastic-natural-images-high-quality-260nw-1501604198.jpg",
   "buildpacks": [
     {
-      "url": "heroku/java"
+      "url": "https://github.com/heroku/heroku-buildpack-java"
     }
   ],
   "environments": {
