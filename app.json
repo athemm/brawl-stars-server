@@ -32,7 +32,7 @@
   "image": "https://github.com/heroku/heroku-buildpack-java",
   "buildpacks": [
     {
-      "url": "heroku/javar"
+      "url": "heroku/java"
     }
   ],
   "environments": {
