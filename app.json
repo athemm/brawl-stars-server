@@ -32,7 +32,7 @@
   "image": "heroku/java",
   "buildpacks": [
     {
-      "url": "https://github.com/athemm/brawl-stars-server"
+      "url": "heroku/javar"
     }
   ],
   "environments": {
