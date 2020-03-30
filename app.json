@@ -20,7 +20,7 @@
     },
     "WEB_CONCURRENCY": {
       "description": "The number of processes to run.",
-      "value": "5"
+      "value": "1"
     }
   },
   "formation": {
@@ -32,7 +32,7 @@
   "image": "https://image.shutterstock.com/image-photo/fantastic-natural-images-high-quality-260nw-1501604198.jpg",
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-java"
+      "url": "heroku/java"
     }
   ],
   "environments": {
